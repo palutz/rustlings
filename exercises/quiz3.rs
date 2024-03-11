@@ -27,9 +27,9 @@ pub struct ReportCard<T> {
 impl<T: Display> ReportCard<T> {
     pub fn new (grade: T, name: String, age: u8) -> Self {
         Self {
-            grade : grade, 
+            grade : grade,
             student_name : name,
-            student_age  : age,   
+            student_age  : age,
         }
     }
 
